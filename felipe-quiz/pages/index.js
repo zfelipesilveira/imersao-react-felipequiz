@@ -54,7 +54,7 @@ export default function Home() {
                   // name = infosDoEvento.target.value;
                   setName(infosDoEvento.target.value);
                 }}
-                placeholder="Diz ai seu nome"
+                placeholder="Diga seu nome"
               />
               <button type="submit" disabled={name.length === 0}>
                 Jogar
