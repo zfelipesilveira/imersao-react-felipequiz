@@ -30,7 +30,7 @@ export const QuizContainer = styled.div`
 export default function Home() {
   const router = useRouter();
   const [name, setName] = React.useState("");
-
+  console.log(db.bg)
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
